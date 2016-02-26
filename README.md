@@ -1,2 +1,4 @@
 # uart_testing
-Test code to run on the beaglebone to communicate uart with the roomba 620. Use '# echo ADAFRUIT-UART1 > /sys/devices/bone_capemgr.9/slots' before using this code to load the uart1 cape. We will use the uart1 interface.     bef
+Test code to run on the beaglebone to communicate uart with the roomba 620.
+Use '# echo ADAFRUIT-UART1 > /sys/devices/bone_capemgr.9/slots' before using this code to load the uart1 cape. We will use the uart1 interface.
+Compilation can be done with '$ gcc FILENAME -o test'. Change FILENAME by the test you would like to compile.
